@@ -5,14 +5,14 @@ return {
     cmd = 'Trouble',
     keys = {
       {
-        '<leader>dd',
+        '<leader>wd',
         '<cmd>Trouble diagnostics toggle<cr>',
-        desc = 'Diagnostics (Trouble)',
+        desc = '[W]orkspace Diagnostics (Trouble)',
       },
       {
-        '<leader>dD',
+        '<leader>dd',
         '<cmd>Trouble diagnostics toggle filter.buf=0<cr>',
-        desc = 'Buffer Diagnostics (Trouble)',
+        desc = '[D]ocument [D]iagnostics (Trouble)',
       },
       {
         '<leader>ts',
@@ -30,10 +30,10 @@ return {
         desc = '[T]oggle [L]ocation List (Trouble)',
       },
       {
-        '<leader>tQ',
+        '<leader>tq',
         '<cmd>Trouble qflist toggle<cr>',
         desc = '[T]oggle [Q]uickfix List (Trouble)',
       },
     },
-  }
+  },
 }
